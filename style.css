@@ -1,1 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #eef2ff, #f8fafc);
+  color: #1e293b;
+}
 
+/* Container */
+.container {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* Heading */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+  color: #64748b;
+  margin-bottom: 50px;
+}
+
+/* Cards layout */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Card design */
+.card {
+  background: white;
+  padding: 30px;
+  width: 260px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 25px;
+  background: #2563eb;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+}
